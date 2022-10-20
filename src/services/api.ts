@@ -10,7 +10,6 @@ import Logger from './logger'
  * @returns An Axios instance.           
  */
 export const api = (props: AxiosWrapperProps) => {
-    const { baseURL, headers, timeout } = props;
     const logger = new Logger({
         output: 'console'
     });
@@ -22,11 +21,7 @@ export const api = (props: AxiosWrapperProps) => {
      * @param {number} timeout - The timeout for the API call.           
      * @returns {AxiosInstance} - The axios instance.           
      */
-    const result = axios.create({
-        baseURL: baseURL,
-        headers: headers,
-        timeout: timeout
-    });
+    const result = axios.create(props);
 
     /**
      * Intercepts all requests and adds the correct method to the request.           

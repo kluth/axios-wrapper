@@ -12,7 +12,7 @@ class Logger {
 
     handleConsoleOutput(message: string) {
         // print message to console
-        console.log(message);
+
     }
 
     handleTxtOutput(message: string) {

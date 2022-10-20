@@ -7,7 +7,7 @@ import { AxiosWrapperProps } from "./properties/AxiosWrapperProps";
  * @returns None           
  */
 export const AxiosWrapper = (props: AxiosWrapperProps) => {
-
+    return null;
 }
 
 // Path: axios-wrapper\src\index.ts
