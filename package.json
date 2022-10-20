@@ -1,6 +1,6 @@
 {
   "name": "axios-wrapper-codestreber",
-  "version": "1.0.0",
+  "version": "1.0.0a",
   "description": "Getting the most out of axios with this handy wrapper.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
