@@ -1,5 +1,5 @@
 export interface ResponseProps {
-    data: any;
-    status: number;
-    statusText: string;
+  data: any;
+  status: number;
+  statusText: string;
 }
